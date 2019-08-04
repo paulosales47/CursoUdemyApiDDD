@@ -30,9 +30,13 @@
 
 ```dotnet dev-certs https --trust```
 
-### Criar projeto WebAPI (Services.API)
+### Criar projeto WebAPI
 
-```dotnet new webapi -n CursoUdemyApiDDD.Services.API -o CursoUdemyApiDDD.Services.API```
+```dotnet new webapi -n CursoUdemyApiDDD -o CursoUdemyApiDDD```
+
+### Criar camada Application
+
+```dotnet new classlib -n "CursoUdemyApiDDD.Application" -o CursoUdemyApiDDD.Application -f netcoreapp3.0```
 
 
 
